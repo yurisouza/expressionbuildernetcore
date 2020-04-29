@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <_HasReferenceToSystemRuntime>true</_HasReferenceToSystemRuntime>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <Authors>Yuri Pereira</Authors>
+    <Product>Expression Builder .Net Core</Product>
+    <Description>Use the Lambda Expression Builder to easily build a filter that you can apply to lists and database queries. You can even use this as a base to allow you to build filters dynamically.
+
+Packed with features; you can save and re-run filters, not have to worry about NULL checks (it's automatic), build complex queries with groups and more!</Description>
+    <PackageProjectUrl>https://github.com/yurisouza/expressionbuildernetcore</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/yurisouza/expressionbuildernetcore</RepositoryUrl>
+    <PackageIcon>21548.jpg</PackageIcon>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="2.2.4" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="2.2.0" />
+    <PackageReference Include="Microsoft.NETCore.App" Version="2.2.8" />
+    <PackageReference Include="System.ComponentModel.Annotations" Version="4.5.0" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="4.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\assets\21548.jpg">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+    <None Include="..\LICENSE.md">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
